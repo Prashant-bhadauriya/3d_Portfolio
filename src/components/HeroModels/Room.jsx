@@ -12,14 +12,15 @@ import * as THREE from "three";
 export function Room(props) {
   const { nodes, materials } = useGLTF("/models/optimized-room.glb");
   const screensRef = useRef();
-  const matcapTexture = useTexture("/images/textures/mat1.png");
+  // const matcapTexture = useTexture("/images/textures/mat1.png");
 
   const curtainMaterial = new THREE.MeshPhongMaterial({
     color: "#d90429",
   });
 
   const bodyMaterial = new THREE.MeshPhongMaterial({
-    map: matcapTexture,
+    // map: matcapTexture,
+    color: "#514048"
   });
 
   const tableMaterial = new THREE.MeshPhongMaterial({
@@ -35,7 +36,7 @@ export function Room(props) {
   });
 
   const pillowMaterial = new THREE.MeshPhongMaterial({
-    color: "#8338ec",
+    color: "#a89ed5",
   });
 
   const chairMaterial = new THREE.MeshPhongMaterial({

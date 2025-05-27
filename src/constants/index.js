@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
+  { value: 4, suffix: "+", label: "Years of Experience" },
   { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 30, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -147,39 +147,39 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Prashant remained dedicated and loyal to his work and responsibilities with our company. He performed his duties exceptionally well, demonstrating great proficiency in his role and  always maintained a professional and courteous attitude and appearance while with our company.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Frontend Developer Executive (React.js)",
+    date: "February 2024 - February 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed and maintained scalable web applications using React.js and Redux.",
+      "Optimized React components to improve page load times by 25%",
+      "Collaborated with backend teams to integrate REST APIs seamlessly.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+    review: "Prashant’s contributions to Adlex Services Pvt. Ltd.'s web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    imgPath: "/images/adbook.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Software Development Engineer 2 (SDE2)",
+    date: "July 2022 - November 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Streamlined blog approval and publishing process, addressing backlogs and increasing marketing team efficiency by 3X.",
+      "Implemented exponential backoff algorithm for third-party API calls, decreasing failure rate by up to 90%.",
+      "Engineered a performant system that streamlined the sending and tracking of invites and coupon codes, significantly reducing processing time by 50%, and ultimately saving ambassadors' and the marketing team's valuable time"
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+    review: "Prashant’s work on Unite 8 Software’s webapp brought a high level of quality and efficiency. He delivered solutions that enhanced our web experience & meet our product goals.",
+    imgPath: "/images/unite8_logo.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Software Development Engineer 1 (SDE1)",
+    date: "February 2021 - June 2022",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Efficiently handled text-heavy data responses by using GZIP compression, reducing size up to 70%.",
+      "Enhanced data quality by implementing data cleansing procedures, resulting in a 15% reduction in errors and inconsistencies.",
+      "Executed comprehensive statistical analysis on customer behavior, contributing to a 25% increase in customer satisfaction.",
     ],
   },
 ];
